@@ -1,0 +1,9 @@
+# HELP kamailio_opened_connections kamailio opened tls connections
+# TYPE kamailio_opened_connections gauge
+kamailio_opened_connections 3868
+# HELP rtpengine_open_port_count rtpengine opened port count
+# TYPE rtpengine_open_port_count gauge
+rtpengine_open_port_count 6307
+# HELP free_shmem_memory shmem free memory
+# TYPE free_shmem_memory gauge
+free_shmem_memory 442217152
