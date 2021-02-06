@@ -1,0 +1,3 @@
+# HELP asterisk_call_count asterisk current call count
+# TYPE asterisk_call_count gauge
+asterisk_call_count{asterisk="ast25"} 38
