@@ -1,0 +1,9 @@
+[Unit]
+Description=Node Exporter
+
+[Service]
+User=root
+ExecStart=/usr/local/src/node_exporter/node_exporter --collector.textfile.directory /usr/local/src/node_exporter/text_export/
+
+[Install]
+WantedBy=default.target
